@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick's Pantry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f4f7f9; /* Soft background color */
+            color: #333; /* Dark text for readability */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e1e8ed; /* Light gray-blue */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #d0d6d9; /* Subtle border */
+        }
+        header h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 36px;
+            color: #2c3e50; /* Deep navy for contrast */
+            margin: 0;
+        }
+        nav {
+            background-color: #ffffff; /* Clean white */
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        }
+        nav a {
+            color: #2c3e50; /* Deep navy text */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            font-weight: 600; /* Bold links */
+        }
+        nav a:hover {
+            color: #4a6a8c; /* Driftwood blue hover effect */
+        }
+        .hero {
+            background-color: #d0e0f0; /* Light driftwood blue */
+            text-align: center;
+            padding: 60px 20px;
+            position: relative;
+        }
+        .hero h2 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 36px;
+            color: #4a6a8c; /* Driftwood blue */
+            margin: 0 0 10px 0;
+            text-decoration: underline; /* Adds the underline */
+            text-decoration-color: #4a6a8c; /* Color of the underline */
+            text-decoration-thickness: 2px; /* Thickness of the underline */
+        }
+        .content {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .about-section {
+            background-color: #fdf7f1; /* Warm cream color */
+            border-radius: 8px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .about-section h2 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 32px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .about-section p {
+            font-family: 'Raleway', sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+            text-align: center;
+        }
+        footer {
+            background-color: #e1e8ed; /* Light gray-blue */
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #d0d6d9; /* Subtle border */
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Patrick's Pantry</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Shop</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>For Nana</h2>
+    </section>
+    <section class="content">
+        <div class="about-section">
+            <h2>About Patrick's Pantry</h2>
+            <p>Welcome to Patrick's Pantry! We are a family-run bakery dedicated to bringing you the freshest and most delightful treats. Our passion for baking comes from cherished family recipes, handed down through generations. Each cake and pastry is crafted with love, using only the finest ingredients. Whether you're celebrating a special occasion or simply indulging in a sweet treat, we aim to make every bite a delightful experience. Thank you for being a part of our journey, and we hope our baked goods bring a touch of joy to your day!</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Patrick's Pantry. All rights reserved.</p>
+    </footer>
+</body>
+</html>
